@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ruff
+.ruff_cache/
+
+# Data/indices
+indices/
+data/
+
+# Env
+.env
+venv/
+.venv/
+
+# Lock files
+uv.lock
+
+# Tests
+*.log
+
+# Docker
+*.pid
+
+# Others
+*.bak
+*.swp
+*.tmp
+
+# Git
+.git/
