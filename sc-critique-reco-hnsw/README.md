@@ -1,6 +1,4 @@
-
-
-# sc_recommandation
+# Système de recommandation de critiques de films
 
 API FastAPI pour la recommandation de critiques de films similaires.
 
