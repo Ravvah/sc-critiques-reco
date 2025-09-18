@@ -66,7 +66,7 @@ Exemple de payload avec reranking sentiment :
 ```json
 {
 	"film_id": "fight_club",
-	"text": "je n'ai pas aimé Fight Club",
+	"text": "je n'ai pas aimé Fight Club, il y'a beaucoup de combat à mains nues",
 	"k": 5,
 	"mode": "dense",
 	"use_sentiment": true
@@ -84,7 +84,7 @@ Exemple de payload avec reranking sentiment :
 uv venv
 uv pip install -e .[dev]
 DATA_DIR=./data OUT_DIR=./indices uv run -m app.services.indexer
-uv run uvicorn app.api:app --reload --port 8000
+uv run python -m uvicorn app.api:app --reload --port 8000
 ```
 
 ## Auteur
