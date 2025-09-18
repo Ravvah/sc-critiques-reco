@@ -1,6 +1,6 @@
 # Système de recommandation de critiques de films
 
-API FastAPI pour la recommandation de critiques de films similaires.
+API FastAPI pour la recommandation de critiques similaires à une critique de film.
 
 ## Objectif
 À partir d'une critique (texte + film_id), l'API retourne les critiques du même film les plus proches sémantiquement.
@@ -13,7 +13,6 @@ API FastAPI pour la recommandation de critiques de films similaires.
 	- Construction TF-IDF pour le mode hybride
 - **Service API** :
 	- `POST /v1/recommendations` : retourne les critiques similaires
-	- `GET /v1/healthz` : statut du service
 	- `GET /v1/readyz` : index disponible
 
 
