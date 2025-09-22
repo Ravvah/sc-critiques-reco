@@ -27,7 +27,7 @@ Thumbs.db
 
 # Data/indices
 indices/
-data/
+
 
 # Env
 .env
